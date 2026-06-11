@@ -3726,13 +3726,13 @@ min-width is equal to or greater than
     } */
     .nav3 .right-section .pricing-two{
         position: absolute;
-        left: 92px;
+        left: 88px;
     }
     .nav3 .right-section .fa-bars{
         position: absolute;
         top: -7px;
         border: 1px solid black;
-        right: 1px;
+        right: 5px;
         border: none;
         font-size: 28px;
         /* font-weight: normal; */
