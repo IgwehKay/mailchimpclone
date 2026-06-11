@@ -2223,6 +2223,10 @@ text-decoration: none;
     display: block;
 }
 
+.smaller-screen-dropdown:hover .dropdown-btn{
+    background-color: #fff;
+}
+
 .last-set{
     display: flex;
     align-items: center;
@@ -3684,7 +3688,7 @@ min-width is equal to or greater than
     
 }
 
-@media (max-width: 426px) {
+@media (max-width: 428px) {
     .nav2{
         padding-bottom: 8px;
         background-color: #231E15;
@@ -3701,6 +3705,11 @@ min-width is equal to or greater than
     .nav3 .login-button.other{
         display: none;
     }
+    .nav3 .left-section{
+        /* border: 1px solid blue; */
+        position: relative;
+        left: 6px;
+    }
 
     .nav3 .right-section{
         border: 1px solid black;
@@ -3709,7 +3718,7 @@ min-width is equal to or greater than
         justify-content: flex-start;
         gap: 0;
         border: none;
-        margin-left: 90px;
+        margin-left: 103px;
         position: relative;
     }
     /* .nav3 .right-section *{
@@ -3717,11 +3726,25 @@ min-width is equal to or greater than
     } */
     .nav3 .right-section .pricing-two{
         position: absolute;
-        left: 118px;
+        left: 92px;
     }
     .nav3 .right-section .fa-bars{
         position: absolute;
         top: -7px;
+        border: 1px solid black;
+        right: 1px;
+        border: none;
+        font-size: 28px;
+        /* font-weight: normal; */
+    }
+
+    .nav3{
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        
     }
     .hero-sect{
         padding-bottom: 80px;
@@ -3758,33 +3781,69 @@ min-width is equal to or greater than
         font-size: 1.8em;
     }
     .hero-sect-two .parent-card-container{
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        justify-content: space-evenly;
-        left: 0;
-        right: 0;
+        justify-content: center;
+        gap: 0;
+        /* row-gap: -20px; */
+        /* margin: auto; */
+        
 
     }
     .card-containers{
         border: 1px solid white;
-        width: 90%;
+        width: 85%;
         left: 0;
         right: 0;
         border: none;
     }
     .card-containers .img-holder{
-        width: 90%;
+        width: 85%;
         position: relative;
-        left: -10px;
+        /* left: -10px; */
         right: 0;
+        margin: auto;
     }
     .parent-card-container{
         border: 1px solid green;
         border: none;
     }
+    .parent-card-container .texts-holder{
+        border: 1px solid white;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding-left: 18px;
+        padding-right: 0px;
+        border: none;
+
+    }
+
     .card-containers-text.head,
     .card-containers-text.body{
-        position: relative;
-        left: -10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .texts-holder .card-containers-text.head a{
+        font-size: 17.5px;
+    }
+    .texts-holder .card-containers-text.body a{
+        font-size: 15.5px;
+        width: 100%;
+    }
+    .texts-holder .one{
+        margin-top: -30px;
+    }
+
+    .hero-sect-two{
+        /* border: 1px solid white; */
+        height: max-content;
+    }
+    .pricing-button{
+        margin-top: -10px;
+        padding-top: 20px;
     }
     .carousel-inner.one{
         border: 1px solid white;
@@ -3891,19 +3950,6 @@ min-width is equal to or greater than
     display: flex;
     top: -20px;
     }
-
-    /* .one-marketing{
-        padding: 0;
-        margin: 0;
-    }
-    .one-marketing h1{
-        width: 100%;
-        font-size: 1.1em;
-    }
-    .one-marketing p,
-    .one-marketing .row-five-container{
-        display: none;
-    } */
 
     .one-marketing{
         display: none;
@@ -4066,7 +4112,7 @@ min-width is equal to or greater than
     .bottom-footer .smaller-screen-last-set{
         border: 1px solid black;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         border: none;
 
     }
@@ -4078,14 +4124,11 @@ min-width is equal to or greater than
         text-align: left;
     }
     .smaller-screen-last-set .smaller-screen-dropdown{
-        margin-bottom: 40px;
         width: 90%;
         margin: auto;
         margin-bottom: 40px;
-        /* border: 1px solid black; */
-        
-
     }
+
     .smaller-screen-dropdown .dropdown-btn{
         /* border: 2px solid black; */
         width: 100%;
