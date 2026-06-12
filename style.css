@@ -3693,7 +3693,7 @@ min-width is equal to or greater than
     
 }
 
-@media (max-width: 428px) {
+@media (max-width: 425px) {
     .nav2{
         padding-bottom: 8px;
         background-color: #231E15;
@@ -3738,11 +3738,12 @@ min-width is equal to or greater than
     .nav3 .right-section{
         border: 1px solid black;
         width: 100%;
-        position: relative;
+        position: static;
         display: flex;
         justify-content: flex-start;
         gap: 0;
         left: 15px;
+        right: 5px;
         border: none;
         /* margin-left: 70px; */
         /* position: relative; */
@@ -3751,12 +3752,14 @@ min-width is equal to or greater than
         border: 1px solid black;
     } */
     .nav3 .right-section .pricing-two{
-        /* position: absolute; */
-        /* left: 116px; */
+        position: static;
+        right:79px;
+        /* border: 1px solid black; */
     }
     .nav3 .right-section .fa-bars{
-        /* position: absolute; */
-        /* top: -7px; */
+        position: static;
+        top: 7px;
+        left: 178px;
         border: 1px solid black;
         /* margin-right: 5px; */
         border: none;
