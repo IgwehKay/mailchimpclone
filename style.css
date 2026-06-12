@@ -3764,6 +3764,7 @@ min-width is equal to or greater than
         /* margin-right: 5px; */
         border: none;
         font-size: 28px;
+        padding-left: 5px;
         /* font-weight: normal; */
     }
     .menu-list {
