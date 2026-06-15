@@ -3768,4 +3768,27 @@ text-decoration: none;
    
 }
 
+@media (max-width: 376px) {
+
+    .nav3 .right-section {
+        margin-left: -70px;
+
+    }
+
+
+    /* * {
+    outline: 1px solid red;
+    } */
+    
+    .hero-six .left-pic img{
+        width: 330px;
+    }
+    .hero-seven .row-five-container{
+        margin-top: -10px;
+    }
+    .hero-eight-container img{
+        width: 320px;
+    }
+}
+
 
