@@ -3805,7 +3805,7 @@ text-decoration: none;
         width: 320px;
     }
 }
-@media (max-width: 360px){
+@media (min-width: 360px) and (max-width:400px){
     /* * {
     outline: 1px solid red;
     } */
