@@ -3798,7 +3798,7 @@ text-decoration: none;
         width: 330px;
     }
     .hero-seven .row-five-container{
-        margin-top: -20px;
+        margin-top: 6px;
         border: 1px solid black;
     }
     .hero-eight-container img{
@@ -3819,13 +3819,22 @@ text-decoration: none;
         width: 300px;
     }
     .hero-six .left-pic img{
-        width: 300px;
+        width: 320px;
         margin-left: -15px;
     }
     
     .hero-six .right-text h2{
         font-size: 22px;
     }
+    .hero-seven .row-five-container{
+        margin-top: 6px;
+        border: 1px solid black;
+    }
+    .hero-eight-container img{
+        width: 320px;
+
+
+}
 }
 
 
