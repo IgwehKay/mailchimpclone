@@ -3832,9 +3832,19 @@ text-decoration: none;
     }
     .hero-eight-container img{
         width: 320px;
+    }
+    .smaller-screen-dropdown .dropdown-btn{
+        position: relative;
+    }
+    .smaller-screen-dropdown .dropdown-content.b{
+        position: absolute;
+        top: 407px;
+        left: 21px;    
+        /* background-color: red; */
+        width: 88%;
 
+    }
 
-}
 }
 
 
