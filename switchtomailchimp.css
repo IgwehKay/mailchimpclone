@@ -3805,5 +3805,27 @@ text-decoration: none;
         width: 320px;
     }
 }
+@media (max-width: 360px){
+    /* * {
+    outline: 1px solid red;
+    } */
+    .nav3{
+        overflow: hidden;
+    }
+    .hero-seven .right-text img{
+        width: 340px;
+    }
+    .hero-eight-container img{
+        width: 300px;
+    }
+    .hero-six .left-pic img{
+        width: 300px;
+        margin-left: -15px;
+    }
+    
+    .hero-six .right-text h2{
+        font-size: 22px;
+    }
+}
 
 
